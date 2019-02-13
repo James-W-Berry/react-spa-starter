@@ -15,12 +15,18 @@ Starter app using:
 ### Build and Run
 Included is a json-server for testing server communication with the React application. The application is configured to retrieve images, products, promotions, and leaders of a sample company from the json-server. New comments and feedback can be written to the server database.
 
+&nbsp;
+
+Setup:
 ```javascript
 /* navigate to the json-server from the root directory */
 cd starter-json-server
 
 /* Run the following to start a json-server watching the db.json file on port 3001 with a 2000ms delay for testing. */
 json-server --watch db.json -p 3001 -d 2000
+
+/* start the React application from the root directory and navigate to port 3000 to view*/
+npm start
 ```
 
 &nbsp;
